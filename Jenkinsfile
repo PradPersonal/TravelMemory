@@ -1,5 +1,5 @@
 pipelinne {
-  agent {label: Jenkin's Agent}
+  agent {label 'jenkins-agent'}
   stage('Checkout') {
     steps {
       git branch: 'main', url: 'https://github.com/PradPersonal/TravelMemory.git'
